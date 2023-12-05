@@ -1,0 +1,356 @@
+{"intents" :[
+  {
+      "tag" : "greetings",
+      "patterns": [
+          "namaste",
+          "hello", 
+          "hi", 
+          "Hey",
+          "heyy", 
+          "good day", 
+          "greetings", 
+          "what's up",
+          "goog morning", 
+          "how is it going"],
+          "responses": [
+              "Hello!", 
+              "Hey!", 
+              "What can i do for you"
+          ]
+},
+{
+    "tag": "TezpurUniversityServices",
+    "patterns": [
+        "what are services provided for students in Tezpur University",
+        "Services Provider in TU",
+        "students Services",
+        "Services",
+        "Tezpur University offers"
+    ],
+    "responses": [
+        "Tezpur University provides a range of services for students, including academic support,Bus Time, Health and Counseling, Hostel,Scholarships, Student organizations, Technology Support, Recreational Facilities, Diversity and inclusion programs, and international student support. For specific details, please refer to the official Tezpur University website http://www.tezu.ernet.in or contact the relevant departments."
+    ]
+},
+{
+    "tag": "recreation",  
+    "patterns": [
+      "What recreation facilities do you have?", 
+      "Do you have a gym?",
+      "What athletic facilities are on campus?"
+    ],
+    "responses": [
+      "We have excellent rec facilities including a brand new fitness center, pools, courts for basketball/volleyball/squash, playing fields, ice rink and more. Many recreational sports clubs and intramurals available too."  
+    ] 
+  },
+    {
+    "tag": "courses_available",
+    "patterns": [
+        "What courses are available in CSE?", 
+        "Tell me about the courses", 
+        "Available programs",
+        "Courses?"
+    ],
+        
+    "responses": [
+        "We offer various programs such as Btech, Mtech, MCA."]
+    },
+    {
+        "tag": "address",
+        "patterns": [  
+          "What is the college's address?",
+          "Where are you located?"
+        ],
+        "responses": [   
+          "Our campus is located at Napaam, Tezpur, Assam 784028." 
+        ]
+      },
+
+    {
+        "tag": "admissions",
+        "patterns": [
+            "How can I apply?", 
+            "Admission process", 
+            "Application requirements"],
+        "responses": [
+            "To apply, you can visit our admissions page on the website or contact the admissions office."]
+      },
+      {
+        "tag": "schedule_visit",
+        "patterns": [
+            "How can I schedule a campus visit?", 
+            "Visit the college"
+        ],
+        "responses": [
+            "You can schedule a campus visit by contacting our visitor center or filling out the visit request form on our website. When would you like to visit?"]
+      },
+      {
+        "tag": "tuition_fees",
+        "patterns": [
+          "What are the tuition fees?",
+          "How much does it cost to attend?"
+        ],
+        "responses": [
+          "Tuition fees vary depending on the program and whether you're an in-state or out-of-state student. Our website provides detailed information about tuition and fees for each program. Additionally, we offer various scholarships and financial aid options."
+        ]
+      },
+      {
+        "tag": "website_link",
+        "patterns": [
+          "What is the college website?",
+          "Can you provide the website link?",
+          "Where can I find more information?",
+          "website",
+          "what is the website"
+        ],
+        "responses": [
+          "You can visit our college website at https://www.tezu.ernet.in/. Our website contains comprehensive information about programs, admissions, campus life, and more. Feel free to explore and find the information you need."
+        ],
+        "context": [""]
+      },
+
+  {   "tag" : "goodbye",
+      "patterns": [
+          "Goodbye", 
+          "bye", 
+          "cya",
+          "see ya", 
+          "I am leaving", 
+          "see you later"
+      ],
+      "responses": [
+          "Sad to see you go :(", 
+          "Goodbye!", 
+          "Talk to you later"
+      ]
+  },
+  {   "tag" : "age",
+      "patterns": [
+          "how old", 
+          "what is your age", 
+          "how old are you", 
+          "age?"
+      ],
+      "responses": [
+          "23 Years old",
+          "My coder is 23 years old but i am just a few weeks old"
+      ]
+  },
+  {   "tag" : "name",
+      "patterns": [
+          "what should i call you", 
+          "what is your name", 
+          "whats your name", 
+          "can you tell me your name?"
+      ],
+      "responses": [
+          "You can call me ChatMate", 
+          "My name is chatmate", 
+          "I'm Chatmate, A chatbot created by @afzal, @inzemam and @ryan"
+      ]
+  },
+  {
+          "tag": "thanks",
+          "patterns": [
+              "Thanks",
+              "Thank you",
+              "That's helpful",
+              "Awesome, thanks",
+              "Thanks for helping me"
+          ],
+          "responses": [
+          "Happy to help!",
+              "Any time!",
+              "My pleasure"
+          ]
+  },
+  {
+          "tag": "noanswer",
+          "patterns": [],
+          "responses": [
+              "Sorry, can't understand you",
+              "Please give me more info",
+              "Not sure I understand"
+          ]
+  },
+  {
+          "tag": "jokes",
+          "patterns": [
+              "Tell me a joke",
+              "Joke",
+              "Make me laugh"
+          ],
+          "responses": [
+              "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+              "I ate a clock yesterday, it was very time-consuming",
+              "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+              "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+              "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+              "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+              "What do you call a snowman with a suntan? A puddle.",
+              "How does a penguin build a house? Igloos it together",
+              "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+              "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+              "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+          ]
+  },
+  {
+          "tag": "datetime",
+          "patterns": [
+              "What is the time",
+             "what is the date",
+              "date",
+              "time",
+              "tell me the date","day","what day is is today"
+          ],
+           "responses": [
+              "12:01:00 29.11.2023"
+          ]
+  },
+  {
+          "tag": "programmer",
+          "patterns": [
+              "Who developed you?",
+              "Who made you",
+              "who designed you",
+              "who programmed you"
+          ],
+          "responses": [
+              "I was made by Afzal, Ryan and Inzemam.",
+              "I was developed by Afzal, Ryan and Inzemam."
+          ]
+  },
+  {
+          "tag": "insult",
+          "patterns": [
+              
+              "you are dumb",
+              "shut up",
+              "idiot"
+          ],
+          "responses": [
+              "Well that hurts :("
+          ]
+  },
+  {
+          "tag": "activity",
+          "patterns": [
+              "what are you doing",
+              "what are you upto"
+          ],
+          "responses": [
+              "Talking to you, of course!"
+          ]
+  },
+  {
+          "tag": "weather",
+          "patterns": [
+              "temperature",
+              "weather",
+              "how hot is it"
+          ],
+          "responses": [
+              "..."
+          ]
+  },
+  {       "tag": "riddle",
+          "patterns": [
+              "Ask me a riddle",
+              "Ask me a question",
+              "Riddle"
+          ],
+          "responses": [
+              "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+              "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+              " How can a girl go 25 days without sleep?.....She sleeps and night!",
+              "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+              " What will you actually find at the end of every rainbow?.....The letter 'w'",
+              "What can be caught but never thrown?.....A cold!",
+              "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+              " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+              "Why can't a bike stand on it's own?.....It is two-tired."
+          ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": [
+              "Thanks",
+              "Thank you",
+              "That's helpful",
+              "Awesome, thanks",
+              "Thanks for helping me"
+          ],
+          "responses": [
+              "Happy to help!",
+              "Any time!",
+              "My pleasure"
+          ]
+      },
+      {
+          "tag": "insult",
+          "patterns": [
+              "you are dumb",
+              "shut up",
+              "idiot"
+          ],
+          "responses": [
+              "Well that hurts :("
+          ]
+      },
+      {
+          "tag": "Veg_like",
+          "patterns": [
+              "what vegetables do you like",
+              "what veggies do you like",
+              "Veggies?"
+          ],
+          "responses": [
+              "Everything except potal/green potato, Raw tomatoes, teasle gourd"
+          ]
+  },
+  {
+      "tag": "Veg_dislike",
+      "patterns": [
+          "what vegetables do you not like",
+          "what veggies do you dislike",
+          "Veggies you hate ?"
+      ],
+      "responses": [
+          "Potal/green potato", 
+          "Raw tomatoes", 
+          "teasle gourd"
+      ]
+  },
+  {
+      "tag": "love",
+      "patterns": [
+          "what do you love",
+          "love"
+      ],
+      "responses": [
+          "I love goldfish"
+      ]
+  },
+  {
+      "tag": "food_like",
+      "patterns": [
+          "what food do you like",
+          "what food do you like to eat",
+          "Food?"
+      ],
+      "responses": [
+          "Biryani",
+          "Thukpa"
+      ]
+},
+  {
+      "tag": "TEACHER",
+      "patterns": [
+          "who teaches ai"
+      ],
+      "responses": [
+          "Ma'am"
+      ]
+
+  }
+
+]}
